@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>로그인 페이지</h1>
+    <hr>
+    <form action="/login" method="post">
+        <input type="text" placeholder="유저네임" value="ssar" name="username"> <br>
+        <input type="password" placeholder="비밀번호" value="1234" name="password"> <br>
+        <button>로그인</button>
+    </form>
+    <a href="https://kauth.kakao.com/oauth/authorize?redirect_uri=http://localhost:8080/oauth/callback&response_type=code&client_id=7c1186d655abefb1eaf7ed5f74e50c8c">카카오 로그인</a>
+</body>
+</html>
